@@ -12,7 +12,7 @@ go get github.com/axw/gocov/gocov
 go get github.com/mattn/goveralls
 
 
-prof=${1:-".profile.cov"}
+prof=${1:-"profile.cov"}
 echo "mode: count" > $prof
 gopath1=$(echo $GOPATH | cut -d: -f1)
 for pkg in $(go list ./...); do
