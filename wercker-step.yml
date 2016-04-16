@@ -1,5 +1,5 @@
 name: goveralls
-version: 0.1.2
+version: 0.1.3
 description: Wercker step for goveralls, go integration for Coveralls.io continuous code coverage tracking system.
 kyewords:
   - go
